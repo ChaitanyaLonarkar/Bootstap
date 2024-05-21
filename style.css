@@ -5,11 +5,23 @@ body{
         font-style: normal;
       margin: 0;
       padding: 0;
-      
 }
 
 .nav{
     height: 2rem;
+    background-color: white;
+}
+main{
+    /* background-color: #F4F4F4; */
+    background-color: rgb(172 200 236 / 22%);;
+
+    font-size: 14px;
+
+}
+.navi-items i{
+    background-color: rgb(172 200 236 / 22%);
+    width: 37px;
+    text-align: center;
 }
 /* .logo img,  img{
     size: 4rem;
