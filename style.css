@@ -32,14 +32,24 @@ main{
 }
 ul  li a{
     text-decoration: none;
-    color: black;
+    color: rgb(143 142 142);
+    font-size: smaller;
+    letter-spacing: -0.5px;
+    font-weight: 600;
 } 
 .activee{
     background: #c3d4e64d;
      color: #33aaeb;
      font-weight: 700;
 }
-
 .links{
-    width: 25%;
+    width: 20rem;
+}
+.detail-items p{
+    font-size: 12px;
+    /* font-weight: 500; */
+    color: gray;
+}
+.items{
+    /* width: 7rem; */
 }
