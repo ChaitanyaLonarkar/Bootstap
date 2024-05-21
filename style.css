@@ -30,6 +30,16 @@ main{
     /* color: #62C7FD; */
     color: #33aaeb;
 }
-ul{
-    
+ul  li a{
+    text-decoration: none;
+    color: black;
+} 
+.activee{
+    background: #c3d4e64d;
+     color: #33aaeb;
+     font-weight: 700;
+}
+
+.links{
+    width: 25%;
 }

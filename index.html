@@ -111,22 +111,25 @@
       </div>
     </nav>
     <!-- After navbar navigations -->
-    <main class="p-1 ">
+    <main class="p-1 d-flex flex-column gap-4">
       <div
         class="navigations d-flex gap-3 align-items-center rounded-4 pe-4 mx-5 mt-4"
-        style="background-color: white "
+        style="background-color: white"
       >
         <div
           class="navi-items d-flex gap-3 p-3 align-items-center justify-content-center rounded-4 text-white"
           style="background-color: #59a6f6"
         >
-          <i class="fa-solid fa-gauge fs-5 p-2 rounded-4 bg-white fw-bold" style="color: #59a6f6" ></i>
+          <i
+            class="fa-solid fa-gauge fs-5 p-2 rounded-4 bg-white fw-bold"
+            style="color: #59a6f6"
+          ></i>
           <p class="m-0">Dashboard</p>
         </div>
         <div
-          class="navi-items d-flex align-items-center justify-content-between w-100 "
+          class="navi-items d-flex align-items-center justify-content-between w-100"
         >
-          <i class="fa-regular fa-circle-down fs-6 p-2 rounded-4 "></i>
+          <i class="fa-regular fa-circle-down fs-6 p-2 rounded-4"></i>
           <p class="m-0 fw-bold">Receivable</p>
           <i class="fa-solid fa-circle-arrow-left fs-6 p-2 rounded-4"></i>
           <p class="m-0 fw-bold">Return</p>
@@ -148,43 +151,75 @@
           <p class="m-0 fw-bold">Sowroom</p>
         </div>
       </div>
-      <div class="links">
-        <div class="reports">
-          <div class="head d-flex gap-2">
-            <i class="fa-solid fa-arrow-trend-up p-1 rounded-3 d-flex align-items-center justify-content-center"  style="background-color: #59a6f6; width:30px"></i>
-            <h5 class="fw-bold">Reports</h5>
-          </div>
-          <div class="reports-items">
-            <div class="">
-              <ul class="list-group " style="text-decoration: none;">
-                <li class="list-group-item list-group-item-action"><a href="#">Company Snapshot</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#"> Open Order Report</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Cut & Sold Lookup </a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Inventory Snap Shot</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#"> Balance to Sell Sales Summary</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Open Order to Pick</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Period Comparison Report </a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Style Cost Report</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Style Cost Report(Sales Person) </a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Shipping/Receiving Log</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Receiving Summary</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Style Availability By Date</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Purchase Order Report</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Shipping Report</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">
-                  Traffic Report
-                </a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Image Cut& sold Report</a></li>
-                <li class="list-group-item list-group-item-action"><a href="#">Style Sheets</a></li>
-
-
-
-
-
-
-
-
-              </ul>
+      <div class="components mx-5">
+        <div class="links bg-white p-4 rounded-4 ">
+          <div class="reports">
+            <div class="head d-flex gap-2 ps-3 pb-3 d-flex align-items-center  ">
+              <i
+                class="fa-solid fa-arrow-trend-up px-1 py-2 rounded-3 text-white d-flex align-items-center justify-content-center"
+                style="background-color: #59a6f6 ; width: 30px"
+              ></i>
+              <h5 class="fw-bold mb-0 fs-6">Reports</h5>
+            </div>
+            <div class="reports-items">
+              <div class="">
+                <ul class="list-group" style="text-decoration: none">
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Company Snapshot</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#"> Open Order Report</a>
+                  </li>
+                  <li style="    width: 100%;"
+                    class="list-group-item list-group-item-action border-0 activee rounded-3 d-flex align-items-center justify-content-between "
+                  >
+                    <a href="#">Cut & Sold Lookup </a>
+                    <i class="fa-solid fa-chevron-right text-white px-2 py-1 rounded-2  " style="background-color: #33aaeb; font-size:12px"></i>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Inventory Snap Shot</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#"> Balance to Sell Sales Summary</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Open Order to Pick</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Period Comparison Report </a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Style Cost Report</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Style Cost Report(Sales Person) </a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Shipping/Receiving Log</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Receiving Summary</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Style Availability By Date</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Purchase Order Report</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Shipping Report</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#"> Traffic Report </a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Image Cut& sold Report</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action border-0 rounded-3">
+                    <a href="#">Style Sheets</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
